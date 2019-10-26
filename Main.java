@@ -49,7 +49,6 @@ public class Main {
             }
         }
         String stop_game = "";
-	//"Clf.cm" равна "Сдаюсь" при кириллинской раскладке
         while(stop_game != "Clf.cm" ||stop_game != "Сдаюсь" || num_of_trail <= 5)
         {
             System.out.println("Enter your " + level + " digit guess:");
@@ -110,9 +109,6 @@ public class Main {
         }
         */
     }
-	
-    
-    //Методы:
     public int[] numberGen(int difficulty){
         Random rnd = new Random();
         int num = 0;
